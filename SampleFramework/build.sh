@@ -1,3 +1,0 @@
-xcodebuild -workspace SampleFramework.xcworkspace archive -scheme SampleFramework -sdk iphoneos -archivePath "archives/ios_devices.xcarchive"  BUILD_LIBRARY_FOR_DISTRIBUTION=YES SKIP_INSTALL=NO
-xcodebuild -workspace SampleFramework.xcworkspace archive -scheme SampleFramework -sdk iphonesimulator  -archivePath "archives/ios_simulators.xcarchive" BUILD_LIBRARY_FOR_DISTRIBUTION=YES SKIP_INSTALL=NO
-xcodebuild -create-xcframework  -framework archives/ios_devices.xcarchive/Products/Library/Frameworks/SampleFramework.framework  -framework archives/ios_simulators.xcarchive/Products/Library/Frameworks/SampleFramework.framework  -output build/SampleFramework.xcframework
