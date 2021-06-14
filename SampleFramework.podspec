@@ -8,9 +8,7 @@ Pod::Spec.new do |s|
     s.author             = { "jesse" => "jesse.chen@securekey.com" }
     s.source       = { :git => 'https://github.com/jessechensecurekey/SampleFramework.git', :tag => s.version }
     s.dependency 'Alamofire'
-    s.public_header_files = "SampleFramework.framework/Headers/*.h"
-    s.source_files = "SampleFramework.framework/Headers/*.h"
-    s.vendored_frameworks = "SampleFramework.framework"
+    s.vendored_frameworks = "SampleFramework.xcframework"
     s.platform = :ios
     s.swift_version = "4.2"
     s.ios.deployment_target  = '13.0'
