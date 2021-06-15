@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.license = "MIT"
     s.author             = { "jesse" => "jesse.chen@securekey.com" }
     s.source       = { :git => 'https://github.com/jessechensecurekey/SampleFramework.git', :tag => s.version }
-    s.dependency 'Alamofire'
+    s.dependency 'Onfido'
     s.vendored_frameworks = "SampleFramework.xcframework"
     s.platform = :ios
     s.swift_version = "4.2"
