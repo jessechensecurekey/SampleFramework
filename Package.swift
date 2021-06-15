@@ -11,15 +11,13 @@ let package = Package(
             name: "SampleFramework",
             targets: ["SampleFramework"]),
     ],
-    dependencies: [
-       .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.4.0"))
-    ],
+    dependencies: [ ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
                     name: "SampleFramework",
-                    path: "../Library/SampleFramework.xcframework"
+                    path: "Library/SampleFramework.xcframework"
                 )
     ]
 )
