@@ -19,8 +19,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
                     name: "SampleFramework",
-                    url: "https://www.dropbox.com/s/7ysphduw8qk551g/SampleFramework.xcframework.zip?dl=1",
-                    checksum: "59b36f8b885ce093a5ac48adbe319115182c717155a77208543ed0f8436823c7"
+                    path: "../Library/SampleFramework.xcframework"
                 )
     ]
 )
