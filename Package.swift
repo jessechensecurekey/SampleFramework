@@ -10,6 +10,9 @@ let package = Package(
         .library(
             name: "SampleFramework",
             targets: ["SampleFramework"]),
+         .library(
+            name: "Onfido",
+            targets: ["Onfido"])
     ],
     dependencies: [ ],
     targets: [
